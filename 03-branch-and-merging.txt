@@ -1,0 +1,26 @@
+Nama: Avina Yustriani
+Grup: 5
+Tugas: Git and GitHub - 03.branch and merging
+----------------------------------------------------------------------
+
+1. What does git clean do?
+    answer: menghapus file untrack/local yang belum di git add atau git commit.
+2. What do the -d and -f flags for git clean do?
+    answer: -f flag untuk menghapus paksa file, sedangkan -d flag untuk menghapus direktory
+3. What git command creates a branch?
+    answer: git branch [branch name]
+4.  What is the difference between a fast-forward and recursive merge?
+    answer: a fast-forward menggabungkan branch tanpa adanya commit yang baru dan history linear, 
+    sedangkan recursive merge akan menggabungkan branch dengan adanya commit baru, sehingga punya 2 parent.
+5. What git command changes to another branch?
+    answer: git checkout [another branch name]
+6. How do you remove modified or deleted files from the working directory?
+    answer: git rm -r --cached [file name]
+7. What git command deletes a branch?
+    answer: git branch -d [branch name]
+8. What does the git diff command do?
+    answer: melihat perbandingan perubahan yang dilakukan pada revisi
+9. How do you remove files from the staging area?
+    answer: git reset HEAD
+10. How do merge conflicts happen?
+    answer: merge conlicts terjadi saat ada dua orang yang mengedit file yang sama walaupun beda branch, saat disatukan akan terjadi conflict.

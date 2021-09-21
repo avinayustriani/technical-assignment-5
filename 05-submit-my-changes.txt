@@ -1,0 +1,47 @@
+Nama: Avina Yustriani
+Grup: 5
+Tugas: Git and GitHub - 05. Submit-my-changes
+---------------------------------------------------------------------
+
+1. Fork repository GitHub https://github.com/impactbyte/tech4impact-students-bio.git menggunakan akun Github kamu
+
+2. Clone remote repository dari hasil fork tersebut. Jangan clone dari repository originalnya.
+    [git clone https://github.com/avinayustriani/tech4impact-students-bio.git]
+
+3. Buatlah branch baru dengan nama lengkap kamu. Misalnya david-winalda. Jangan melakukan perubahan pada branch master.
+    [git branch avinayustriani]
+
+4. Checkout ke dalam branch tersebut yang telah kamu buat
+    [git checkout avinayustriani]
+
+5. Buatlah 1 file format .md dengan nama lengkap kamu. Contoh davidwinalda.md
+    [touch avinayustriani.md]
+
+6. Isi file tersebut davidwinalda.md dengan konten di bawah ini:
+    Nama Lengkap: David Winalda
+    Umur: 27
+    Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
+    [nano avinayustriani.md]
+
+7. Masukkan file .md tersebut ke dalam staging area
+    [git add .]
+
+8. Commit dengan memberikan pesan nama file .md kamu
+    [git commit -m "avinayustriani.md"]
+
+9. Merge branch yang telah kamu buat ke dalam branch master
+    [git merge avinayustriani]
+
+10. Push ke dalam branch master
+    [git push origin avinayustriani]
+
+11. Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch master pada GitHub Repository aslinya.
+
+Screenshoot langkah 1:
+https://drive.google.com/file/d/1qid7k-Is53fBB8FVv3fiYrHY52f0dlri/view?usp=sharing
+
+Screenshoot langkah 6:
+https://drive.google.com/file/d/1fVk6qiSHDRwJzYrGCFJkW8uK_EmmBvUZ/view?usp=sharing
+
+Screenshoot langkah 11:
+https://drive.google.com/file/d/18SZL4Vyi-hqCZBLjXoYId7t5ZMq4x0I4/view?usp=sharing
